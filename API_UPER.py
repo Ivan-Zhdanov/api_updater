@@ -193,7 +193,7 @@ if __name__ == "__main__":
         api = take_api(email=email, passw=passw)
         write_excel(i, api)
 
-
+    print()
     # while True:
     #     x = pyautogui.position()
     #     print(x)
